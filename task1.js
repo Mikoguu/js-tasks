@@ -3,13 +3,11 @@ const vowels = ['a' , 'e', 'i' , 'o' , 'u'];
 
 function getVowels(string) {
   
-  
-  const textLetters = string.split('');
   const textVowels = [];
 
- for (let i=0; i < textLetters.length; i++) {
-      if (vowels.includes(textLetters[i])) {
-        	textVowels.push(textLetters[i]);
+ for (let i=0; i < text.length; i++) {
+      if (vowels.includes(text[i])) {
+        	textVowels.push(text[i]);
       }
 
  	}
