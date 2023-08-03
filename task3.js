@@ -1,13 +1,7 @@
-const path = "/users/download/index.html"
-const fileExtension = 'html'
+const path = "/users/download/index.html";
+const fileExtension = 'html';
 
-function isHtml(path) {
-  if (path.includes('html')) {
-	return true;
-  } else {
-    return false;
-  }
- }
+const isHtml = path => path.includes('html');
 
 console.log(isHtml(path));
      
