@@ -8,7 +8,7 @@ function getVowels(string) {
   const textVowels = [];
 
  for (let i=0; i < textLetters.length; i++) {
-      if (vowels.includes(textLetters[i]) == true) {
+      if (vowels.includes(textLetters[i])) {
         	textVowels.push(textLetters[i]);
       }
 
