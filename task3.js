@@ -3,9 +3,9 @@ const path = "/users/download/index.html";
 const isHtml = (path) => {
   
   const startIdx = path.indexOf('.html');
-  const extension = (path.slice(startIdx, startIdx + 5)).toString();
+  const htmlExtension = (path.slice(startIdx, startIdx + 5)).toString();
   
-  return extension == '.html'
+  return htmlExtension == '.html'
 }
 
 console.log(isHtml(path));
